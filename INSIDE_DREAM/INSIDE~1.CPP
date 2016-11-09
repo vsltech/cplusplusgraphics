@@ -1,0 +1,73 @@
+/*
+Just another cool  graphics programme.
+
+Programme Name:INSIDE_DREAM
+Programme Code:W_CIRCL2
+Programmer:krishx007
+
+WEBSITE:www.gfxguru.net
+E-MAIL: krishx007@yahoo.com
+
+Check Out other graphics programmes at www.gfxguru.net
+
+Software Details
+====================
+Developed in   : C++
+Compiler used : TC++ 3.0
+OS            :Window 98,2000,XP  
+               Vista,Windows7(only safemode)
+			   
+Licence   : Freeware, Please give the credit of programming to author.
+*/
+#include <dos.h>
+#include <graphics.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+void main(void)
+{
+   /* request auto detection */
+   int gdriver = DETECT, gmode, errorcode;
+   int midx, midy;
+
+   /* initialize graphics and local
+      variables */
+   initgraph(&gdriver, &gmode, "c:\\turboc3\\bgi");
+
+   /* read result of initialization */
+   errorcode = graphresult();
+   if (errorcode != grOk)  /* an error
+       occurred */
+   {
+      printf("Graphics error: %s\n", grapherrormsg(errorcode));
+      printf("Press any key to halt:");
+      getch();
+      exit(1); /* terminate with an error  code */
+    }
+
+   float   r=200;
+   for(float i=0;;i=i+0.01)
+     {
+
+       if(kbhit()){break;}
+       float b=r*cos(i*2);
+
+	    setcolor (4);
+	  setaspectratio(3,5);
+	  circle(360, 200,200-b );circle(360, 200,150-b+1 );
+	  setaspectratio(1,1);
+	  setcolor (1);
+	  circle(260,400,50-b);circle(300, 200,b/1.5);
+	  setcolor (6);
+	  circle(260,400,50-b+1);circle(300, 200,b/1+1);
+
+	  setcolor (2);
+	  line(0,470,b*3,420);line(0,470-1,b*3,420-1);
+
+	printf("\n");
+	delay(1);
+       }
+
+ }

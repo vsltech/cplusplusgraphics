@@ -1,0 +1,46 @@
+##################################################
+#                                                #
+# SNAKE.CPP, SNAKE.H and SNAKE.EXE are copyright #
+# (C)1996 Fredrik Wangel (THE AUTHOR)            #
+#                                                #
+# Hereby THE AUTHOR gives you  restricted rights #
+# to use this software. You may play around with #
+# the source code as much as you like as long as #
+# you do not steal  the complete code and use it #
+# all in a single piece of software.  This means #
+# that you may take parts of the source code and #
+# use in your own programs as long as you put my #
+# copyright notice at the top of the program and #
+# in the documents and or in the executable.     #
+#                                                #
+#      contact me for support and shit at:       #
+#              tde95waf@te.hik.se                #
+#                                                #
+#       thank you for reading this text.         #
+##################################################
+
+PLAYING SNAKE:
+--------------
+Very simple game.
+Use  the arrow  keys  to  control  the  red  snake.
+Pressing  Up,  Down,  Left or Right  will make the
+snake go in that direction.  Press S to toggle the
+horrible sound on and off.  Esc will quit and exit
+to DOS. The main objective is to eat as many green
+frogs (ê) as possible,  avoiding  the brown bricks
+(ð) and the white stones (Û) to become longer. The
+longer you get the  more points you get.  The time
+you play also affects the score.
+
+NOT PLAYING SNAKE:
+------------------
+Now this is hard.  Imagine a whole day without the
+chance of playing this  marvelously exciting  game.
+ID-Soft  has been  in touch with me  trying to get
+the rights  to the  great follow-up  of this  game;
+"Destruction Snake 3D".  Coming soon to a parallel
+universe near you!
+
+Ok, so I lied about having been contacted, sue me!
+
+<END OF FILE>

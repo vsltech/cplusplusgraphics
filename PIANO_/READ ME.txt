@@ -1,0 +1,26 @@
+A very simple type of Piano written in C with graphic buttons.
+Audible bell(type of speaker integrated in motherboard ) is essential for producing the sound.
+
+BORLAND TURBO C++ 3.0 is used for compiling.
+
+Check Out Other Graphics Programmes &
+Download Source Code at 
+http://www.gfxguru.net
+
+See YouTube Channel dadicated to Gfxguru.net at
+http://www.youtube.com/user/krishx007
+
+-krishx007
+E-MAIL: krishx007@yahoo.com
+
+
+
+
+
+
+Software Details
+====================
+Developed in   : C++
+Compiler used : TC++ 3.0
+
+Licence   : Freeware (Please give the credit of programming to author.)
