@@ -1,0 +1,20 @@
+A graphics programme
+that shows cool wings.
+
+Programme Name:DOUBLE_WINGS
+Programme Code:WING_1A
+Programmer:krishx007
+
+WEBSITE:www.gfxguru.net
+E-MAIL: krishx007@yahoo.com
+
+Check Out other graphics programmes at www.gfxguru.net
+
+Software Details
+====================
+Developed in   : C++
+Compiler used : TC++ 3.0
+OS            :Window 98,2000,XP  
+               Vista,Windows7(only safemode)
+			   
+Licence   : Freeware, Please give the credit of programming to author.

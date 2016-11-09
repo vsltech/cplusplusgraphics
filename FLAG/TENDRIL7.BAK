@@ -1,0 +1,96 @@
+ #include <graphics.h>
+ #include <stdlib.h>
+ //#include <time.h>
+ #include <math.h>
+ #include <conio.h>
+ #include <dos.h>
+
+
+
+
+
+/*==============================*/
+void display(int size,float theta ,int x,int y)
+{
+
+  int XO       = 320;
+  int YO       = 240;
+  float PI     = 3.14159;
+  int NUME     = 30;
+  int DENOM    = 100;
+  int NUMBER   = 9;
+  float RAD    = 4.5;
+  float DELTHETA = 0.1;
+  int SEGS     = 20  ;
+  int REDUX    = 3   ;
+  int MIN      = 1   ;
+
+for(int j=0;j<size;j++)
+   {
+   if(kbhit()){break;}
+   int chng=(random(DENOM)<NUME)? -1:1;
+   theta = theta+chng*DELTHETA;
+   x=x+RAD*sin(theta);
+   y=y+RAD*cos(theta);
+
+   moveto(300,200);
+   lineto (x,y);
+   putpixel(x-1,y,15);
+   putpixel(x,y,15);
+   circle(x,y,3);
+   delay(3);
+  }
+
+}
+
+
+main()
+{//----------------------------------------------
+ /* request auto detection */
+   int gdriver = DETECT, gmode, errorcode;
+
+   /* initialize graphics and local
+      variables */
+   initgraph(&gdriver, &gmode, "");
+
+while(1)
+  {
+ if(kbhit()){ char A=getch(); if(A=='s'||A=='S'){getch();} else closegraph(); break; }
+ int color=random(16);
+ if(color==0){color=1;}
+ setcolor(color);
+
+ randomize();
+ display(1000,100 ,450,400);
+ delay(1000);
+cleardevice();
+  }
+closegraph();
+}//--------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

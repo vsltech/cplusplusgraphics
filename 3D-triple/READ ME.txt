@@ -1,0 +1,22 @@
+
+A screen saver type of program that shows three rotating cubes.
+
+
+Check Out my other programes at www.gfxguru.net
+
+WEBSITE:www.gfxguru.net
+E-MAIL: krishx007@yahoo.com
+
+
+
+
+Use the following link given below to download my other programs.
+http://www.programmersheaven.com/user/krishna268code/contributions
+
+
+Software Details
+====================
+Developed in   : C++
+Compiler used : TC++ 3.0
+
+Licence   : Freeware (Please give the credit of programming to author.)

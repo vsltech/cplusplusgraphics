@@ -1,0 +1,20 @@
+A simple type of graphics programme. 
+
+
+Programme Name:BUBBLE
+Programme Code:W_CIRCLE
+Programmer:krishx007
+
+WEBSITE:gfxguru.net
+E-MAIL: krishx007@yahoo.com
+
+Check Out other programmes at www.gfxguru.net
+
+Software Details
+====================
+Developed in   : C++
+Compiler used : TC++ 3.0
+OS            :Window 98,2000,XP  
+               Vista,Windows7(only safemode)
+			   
+Licence   : Freeware, Please give the credit of programming to author.

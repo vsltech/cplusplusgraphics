@@ -1,0 +1,39 @@
+
+This is a GUI programme for analyzing 3-DIMENSIONAL CUBE or CUBOID. 
+Generally students or people face problems to understand 3D figures in engineering drawing. The rotation of 3D cube about X, Y and Z axis. From this software we can understand all things easily. We can rotate the cube about all three axis in both “forward and reverce”direction.
+Even you can keep the cube in automatic rotation from AUTO button in the center. We can change CUBE INTO CUBOID with your required shape & size from “EXTRA SETTING”.
+ 
+This is a GUI program very interactive, so we can simply operate it. We can write or highlight any thing in CUBE SCREEN. For restoring the position of 3D cube we can refresh it by REFRESH button.
+This program require EGAVGA.bgi file, which is a VGA graphics driver for Turbo C++. And one *.chr file.
+
+===================
+
+Objective: 
+
+The objective of this program is to help engineering students in engineering drawing. 
+
+Students can see the rotation of 3-D cube in a 3-D space in real time, so the students can avoid confusion in understanding the rotation or position of 3-d objects in 3-d space.
+
+This is a very interactive GUI program so you can understand and simply operate it.
+=====================
+
+Check Out Other Graphics Programmes &
+Download Source Code at 
+http://www.gfxguru.net
+
+See YouTube Channel dadicated to Gfxguru.net at
+http://www.youtube.com/user/krishx007
+
+-krishx007
+E-MAIL: krishx007@yahoo.com
+
+
+
+Software Details
+====================
+Developed in  : C++
+Compiler used : TC++ 3.0
+OS            :Window 98,2000,XP  
+               Vista,Win7(only safemode)
+
+Licence       : Protected

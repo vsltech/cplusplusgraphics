@@ -1,0 +1,107 @@
+/*
+A simple type of graphics  
+Programme that shows BUSH like graphics.
+
+Programme Name:BUSH 
+Programme Code:TENDRIL4
+Programmer:krishx007
+
+WEBSITE:gfxguru.net
+E-MAIL: krishx007@yahoo.com
+
+Check Out other programmes at www.gfxguru.net
+
+Software Details
+====================
+Developed in   : C++
+Compiler used : TC++ 3.0
+OS            :Window 98,2000,XP  
+               Vista,Windows7(only safemode)
+			   
+Licence   : Freeware, Please give the credit of programming to author.
+*/
+ #include <graphics.h>
+ #include <stdlib.h>
+ #include <time.h>
+ #include <math.h>
+ #include <conio.h>
+ #include <dos.h>
+
+
+  int XO       = 320;
+  int YO       = 240;
+  float PI     = 3.14159;
+  int NUME     = 30;
+  int DENOM    = 100;
+  int NUMBER   = 9;
+  float RAD    = 24.5;
+  float DELTHETA = 0.1;
+  int SEGS     = 60  ;
+  int REDUX    = 3   ;
+  int MIN      = 1   ;
+
+
+
+
+/*==============================*/
+void display(int size,float theta ,int x,int y)
+{
+
+for(int j=0;j<size;j++)
+
+   {
+   int r=random(360);
+   x=x+RAD*sin(r);
+   y=y+RAD*cos(r);
+
+   lineto (x,y);
+   delay(0);
+   }
+
+ }
+main()
+{
+
+int gdriver = DETECT, gmode=0, errorcode;
+     initgraph(&gdriver,&gmode,"");
+while(!kbhit())
+  {
+ setcolor(random(15));
+
+ moveto(280,300);
+ display(500,100 ,300,300);
+ display(500,100 ,300,300);
+ display(500,100 ,300,300);
+delay(100);
+cleardevice();
+  }
+getch();
+closegraph();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
